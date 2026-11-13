@@ -2144,9 +2144,11 @@ const CATS = [
   {id:"leitlinien", h:145, num:"05", name:"Leitlinien, Fachgesellschaften & Nutzenbewertung",
    hinweis:"Was gelten soll und was bezahlt wird, steht nicht in Studien. Hier liegen die pädiatrischen Leitlinien im AWMF-Register, die Kinder-Richtlinie des Gemeinsamen Bundesausschusses mit den U-Untersuchungen, die Nutzenbewertungen und die internationalen Referenzwerke."},
   {id:"policy", h:338, num:"06", name:"Institutionen & Gesundheitspolitik (international)"},
-  {id:"openaccess", h:150, num:"07", name:"Open Access & Discovery"},
-  {id:"register", h:212, num:"08", name:"Studienregister & Preprints"},
-  {id:"volltext", h:100, num:"09", name:"Volltext beschaffen"},
+  {id:"zahn", h:172, num:"07", name:"Zahngesundheit & Kariesprävention",
+   hinweis:"Karies ist die häufigste chronische Erkrankung im Kindesalter und einer der deutlichsten Marker sozialer Ungleichheit. Diese Quellen führen zur Gruppenprophylaxe an Kitas und Schulen, zu den Mundgesundheitsstudien und zu den Leitlinien der Fluoridierung."},
+  {id:"openaccess", h:150, num:"08", name:"Open Access & Discovery"},
+  {id:"register", h:212, num:"09", name:"Studienregister & Preprints"},
+  {id:"volltext", h:100, num:"10", name:"Volltext beschaffen"},
 ];
 // === CATS-BLOCK-ENDE ===
 
@@ -2232,6 +2234,16 @@ const DB = [
   {c:"volltext", n:"Open Access Button", d:"Sucht frei zugängliche Fassungen und fordert sie bei Bedarf direkt beim Autor an. DOI oder Titel nach dem Öffnen eingeben.", t:"portal", u:"https://openaccessbutton.org/"},
   {c:"volltext", n:"subito", de:1, d:"Direktlieferdienst wissenschaftlicher Bibliotheken — Aufsätze und Bücher kostenpflichtig, aber schnell und lizenzkonform.", t:"live", u:"https://search.subito-doc.de/vufind/Search/Results?lookfor=%s&type=AllFields", b:1},
   {c:"volltext", n:"Fernleihe (K10plus)", de:1, d:"Verbundkatalog mit Bestandsnachweis: zeigt, welche Bibliothek den Titel führt — Bestellung über die eigene Bibliothek.", t:"live", u:"https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=%s"},
+  // Zahngesundheit & Kariesprävention
+  {c:"zahn", n:"Bundeszahnärztekammer (BZÄK)", de:1, d:"Berufsvertretung der Zahnärzteschaft: Konzept „Mundgesundheit trotz Handicap und hohem Alter“, Stellungnahmen, Statistisches Jahrbuch.", t:"portal", u:"https://www.bzaek.de/"},
+  {c:"zahn", n:"Kassenzahnärztliche Bundesvereinigung (KZBV)", de:1, d:"Vertragszahnärztliche Versorgung: Jahrbuch mit Abrechnungsdaten, die aufsuchende Betreuung in Pflegeheimen, Verträge nach § 119b SGB V.", t:"live", u:"https://www.kzbv.de/?s=%s"},
+  {c:"zahn", n:"Institut der Deutschen Zahnärzte (IDZ)", de:1, d:"Herausgeber der Deutschen Mundgesundheitsstudien (DMS): die Referenzdaten zu Karies, Parodontitis und Zahnverlust nach Alter und Sozialstatus.", t:"portal", u:"https://www.idz.institute/publikationen/"},
+  {c:"zahn", n:"Deutsche Arbeitsgemeinschaft für Jugendzahnpflege (DAJ)", de:1, d:"Trägerin der Gruppenprophylaxe an Kitas und Schulen: Epidemiologische Begleituntersuchungen, Leitlinien der Gruppenprophylaxe.", t:"live", u:"https://www.daj.de/?s=%s"},
+  {c:"zahn", n:"Deutsche Gesellschaft für Kinderzahnheilkunde (DGKiZ)", de:1, d:"Fachgesellschaft der Kinderzahnheilkunde: Leitlinien zu Fluoridierung, frühkindlicher Karies und Behandlung unter Narkose.", t:"portal", u:"https://www.dgkiz.de/"},
+  {c:"zahn", n:"AWMF-Leitlinienregister", de:1, d:"Darunter die Leitlinien zur zahnmedizinischen Betreuung von Pflegebedürftigen und Menschen mit Behinderung sowie zur Kariesprophylaxe mit Fluoriden.", t:"portal", u:"https://register.awmf.org/de/suche"},
+  {c:"zahn", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Beschlüsse zur zahnärztlichen Versorgung: Individualprophylaxe, Früherkennung bei Kleinkindern, zusätzliche Leistungen für Pflegebedürftige und Menschen mit Behinderung.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
+  {c:"zahn", n:"Cochrane Oral Health", d:"Die Review-Gruppe des Fachs: systematische Übersichten zu Kariesprophylaxe, Fluoriden, Parodontitis und Mundpflege.", t:"live", u:"https://www.cochranelibrary.com/search?q=%s"},
+  {c:"zahn", n:"WHO – Oral health", d:"Globaler Statusbericht zur Mundgesundheit, Länderprofile und die Resolution zur Mundgesundheit als Teil der Grundversorgung.", t:"live", u:"https://www.who.int/home/search?indexCatalogue=genericsearchindex1&searchQuery=%s"},
 ];
 // === DB-BLOCK-ENDE ===
 
@@ -2284,6 +2296,7 @@ const CHIPS = [
   "Neugeborenenscreening",
   "child health services",
   "paediatric",
+  "Kariesprävention",
 ];
 // === CHIPS-BLOCK-ENDE ===
 
