@@ -1,1 +1,80 @@
-[]
+[
+ {
+  "pmid": "43020456",
+  "journal": "Resuscitation",
+  "year": "2026",
+  "author": "Kienzle MF et al.",
+  "pubdate": "12.11.2026",
+  "added": "12.11.2026",
+  "transfer": "USA-Daten aus Kinderintensivstationen, Messmethodik für deutsche Kliniken anwendbar",
+  "title": "Koronarperfusionsdruck beim Herz-Kreislauf-Stillstand bei Kindern prognostiziert Rückkehr der Spontanzirkulation",
+  "sum": "Sekundäranalyse von 111 Kindern der ICU-RESUScitation-Studie untersuchte, ob Koronarperfusionsdruck ≥20 mmHg in den ersten 10 Minuten Wiederbelebung mit Rückkehr der Spontanzirkulation assoziiert ist.",
+  "result": "71 Kinder (64%) erreichten Spontanzirkulation. 30 Patienten (27%) hatten Koronarperfusionsdruck ≥20 mmHg. Im adjustierten Modell war dieser mit erhöhter ROSC-Rate assoziiert (aRR 1,48; 95% CI 1,12-1,95; p=0,005). Druck <10 mmHg war mit niedrigeren ROSC-Raten assoziiert.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43019943",
+  "journal": "Epilepsy Behav",
+  "year": "2026",
+  "author": "Cucuzza ME et al.",
+  "pubdate": "12.11.2026",
+  "added": "12.11.2026",
+  "transfer": "Italien, vergleichbare Versorgungsstruktur, diagnostischer Algorithmus auf Deutschland übertragbar",
+  "title": "Angeborene Stoffwechselstörungen sind untererkannte Ursache von Früh-Epilepsie",
+  "sum": "Retrospektive Analyse von 21.072 Kindern mit Epilepsie-Verdacht an zwei italienischen Zentren identifizierte 57 mit gesicherter Stoffwechselstörung (0,27%).",
+  "result": "Lysosomale Speicherkrankheiten waren häufigste Kategorie (31,6%), gefolgt von Aminoacidopathien (22,8%), mitochondrialen (15,8%) und anderen Störungen. Anfallsbeginn vor Alter 3 Jahren bei 83,3% der Stoffwechsel-Fälle vs. 27,6% ohne (OR 12,3; 95% CI 6,2-24,4; p<0,001). Diagnostische Verzögerung >3,5 Jahre in 50% der Fälle; ~50% zeigte Therapieresistenz trotz Multimedikation.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43018846",
+  "journal": "J Patient Rep Outcomes",
+  "year": "2026",
+  "author": "Spiller CH et al.",
+  "pubdate": "11.11.2026",
+  "added": "12.11.2026",
+  "transfer": "Deutsche Klinikdaten (Dresden), für deutsches Verlaufsmesswesen übertragbar",
+  "title": "PedsQL 4.0 zur Messung der Lebensqualität bei Kindern nach Verbrennungsverletzungen validiert",
+  "sum": "Deutsche Studie an 951 abgeschlossenen Fragebögen von 382 Eltern und 134 Kindern nach Thermoverletzungen prüfte Machbarkeit und Messeigenschaften des PedsQL 4.0.",
+  "result": "Machbarkeit in der Klinik war gegeben (79,6% Komplettierungsrate), Emotionale Funktionsfähigkeit am niedrigsten (73,61). Interne Konsistenz allgemein angemessen, Strukturvalidität nur teilweise gestützt. In 122 Paarpatienten stiegen Gesamt- und Physical-Scores um 4,98 (95% CI 2,80-7,16) bzw. 6,63 (3,45-9,82) Punkte; Social- und Cognitive-Scores ohne konsistente Verbesserung.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43018530",
+  "journal": "J Heart Lung Transplant",
+  "year": "2026",
+  "author": "Opotowsky AR et al.",
+  "pubdate": "03.11.2026",
+  "added": "12.11.2026",
+  "transfer": "Europäische Konsensusempfehlungen für deutsches Versorgungssystem unmittelbar anwendbar",
+  "title": "Fontan-Kreislauf mit kardiovaskulärer Dysfunktion: europäische Konsensusempfehlungen 2026",
+  "sum": "Europäische Fachgesellschaften erarbeiteten evidenzgestützte Empfehlungen zur Diagnostik und Therapie kardiovaskulärer Komplikationen bei Kindern und jungen Erwachsenen nach Fontan-Operation.",
+  "result": "Die Empfehlungen adressieren Assessment, pulmonale vasodilatorische Therapie, Fontan-Obstruktion, Myokarddysfunktion, thromboembolisches Risiko und antithrombotische Therapie. Sieben Empfehlungstabellen und ein Algorithmus zur Vasodilator-Therapie wurden bereitgestellt; viele Empfehlungen basieren auf Expertenmeinung, da Fontan-spezifische Evidenz begrenzt ist.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43018529",
+  "journal": "J Heart Lung Transplant",
+  "year": "2026",
+  "author": "Hansmann G et al.",
+  "pubdate": "03.11.2026",
+  "added": "12.11.2026",
+  "transfer": "Europäische Leitlinie für deutsche Kinderkardiologen und Kinderintensivmedizin direkt übertragbar",
+  "title": "Pulmonale Hypertonie bei Säuglingen, Kindern und jungen Erwachsenen: Europäische Konsensusempfehlungen 2026",
+  "sum": "Europäische Fachgesellschaften entwickelten umfassende evidenzgestützte Empfehlungen zur Diagnostik und Therapie aller Formen pädiatrischer pulmonaler Hypertonie.",
+  "result": "Die Empfehlungen decken Risikobeurteilung, pharmakologische Therapie, transkatheter Interventionen, Chirurgie und Subgruppen-spezifische Strategien ab. Sechs Empfehlungstabellen (COR/LOE) und drei Algorithmen wurden bereitgestellt; Anpassungen für Länder mit mittlerem bis niedrigem Einkommen sind enthalten.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43012923",
+  "journal": "Pediatr Nephrol",
+  "year": "2026",
+  "author": "Baghai Arassi M et al.",
+  "pubdate": "11.11.2026",
+  "added": "11.11.2026",
+  "transfer": "Internationale Daten aus Heidelberg, vergleichbare europäische Transplantationspraxis",
+  "title": "Tacrolimus-Metabolismus und Transplantatüberleben bei Kindern nach Nierentransplantation",
+  "sum": "Internationale Kohorte von 3768 pädiatrischen und jungen Erwachsenen mit Nierentransplantation wurde analysiert, um den Zusammenhang zwischen Tacrolimus-Konzentrations-Dosis-Verhältnis und Transplantatüberleben zu bestimmen.",
+  "result": "Adoleszenten und junge Erwachsene mit Konzentrations-Dosis-Verhältnis <0,58 hatten erhöhtes Transplantatverlustrisiko (aHR 1,74 bzw. 1,98; p=0,004 bzw. p<0,001). Bei Kindern (1-11 Jahre) zeigte sich kein signifikanter Zusammenhang (p=0,98). 25,2% der Adoleszenten und 13,8% der jungen Erwachsenen unterschritten die Risiko-Schwelle.",
+  "aufgenommen": "2026-11-13"
+ }
+]
