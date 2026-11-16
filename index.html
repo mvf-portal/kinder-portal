@@ -2254,62 +2254,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "16. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Microbiol Infect", year:"2026", pmid:"43025697",
-    author:"Vuong ML et al.", pubdate:"13.11.2026",
-    added:"13.11.2026",
-    title:"Optimale Posaconazol-Dosierung bei Kindern: Empfehlung für Loading-Dose erreicht",
-    sum:"Populationspharmakokinetische Analyse von 309 pädiatrischen Patienten mit Pooling von individuellen Konzentrationsdaten zur Identifikation dosierungsregimen mit optimaler Wirksamkeit und Sicherheit.",
-    result:"Orale Suspension zeigte konsistent schlechte Zielkonzentrationserreichung (&lt;90 %). Für intravenös und verzögerte Freisetzung: Loading-Dose 12–15 mg/kg 2× täglich, gefolgt von 12–15 mg/kg 1× täglich, erreichte beste Balance zwischen früher Wirksamkeit und Sicherheit am Tag 2. Empfehlung erfordert Therapeutic Drug Monitoring für Dosisindividualisierung.",
-    transfer:"Europäische Studie mit Daten aus belgischen und deutschen Kliniken, direkt übertragbar auf deutsche Versorgung."
+    journal:"Insights Imaging", year:"2026", pmid:"43033330",
+    author:"Schön F et al.", pubdate:"14.11.2026",
+    added:"14.11.2026",
+    title:"KI-gestützte Knochenalterbestimmung: Unterschiede zwischen Krankheitsgruppen bei 1516 Kindern",
+    sum:"Eine deutsche Kliniken-Studie verglich eine kommerzielle KI-Software (BoneAge) mit der Beurteilung von Kinderradiologen bei der Skelettmaturitätsbestimmung an Handröntgen bei 1516 pädiatrischen Patienten, stratifiziert nach Krankheitsgruppen.",
+    result:"Die mittlere absolute Abweichung zwischen KI und Radiologen betrug 6,4±7,0 Monate für die gesamte Kohorte; die Konkordanz war in der orthopädischen Gruppe am besten (MAD 4,1±5,6 Monate). ICC-Werte für alle Gruppen &gt;0,9 zeigten exzellente Übereinstimmung, aber die Übereinstimmung variierte signifikant je nach Grunderkrankung (genetisch/neuroendokrin: MAD 6,6±7,2, Onkologie: 6,7±6,3 Monate).",
+    transfer:"Deutsche Universitätsklinik; Ergebnisse direkt auf deutsches Gesundheitssystem übertragbar."
   },
   {
-    journal:"Lancet Child Adolesc Health", year:"2026", pmid:"43008757",
-    author:"Dmytriw AA et al.", pubdate:"10.11.2026",
+    journal:"J Burn Care Res", year:"2026", pmid:"43033062",
+    author:"Keeney K et al.", pubdate:"14.11.2026",
+    added:"14.11.2026",
+    title:"Niedriges Körpergewicht assoziiert mit Verbrühungsmisshandlung bei Kleinkindern",
+    sum:"Eine US-amerikanische Kohortenstudie mit 830 Kindern (0–4 Jahre) mit Brandverletzungen untersuchte, ob niedriges Körpergewichts-Perzentil ein Risikofaktor für nicht-zufällige Traumata (Misshandlung) ist.",
+    result:"69 Kinder (8,3%) hatten dokumentierte Misshandlung; diese hatten niedrigere mediane Gewichtsperzentile (46,6 vs. 64,5; p&lt;0,001). Jedes Zehn-Perzentil-Rückgang war mit erhöhtem Misshandlungsrisiko assoziiert (aOR 1,16; 95%-CI 1,06–1,26). Gewicht &lt;10. Perzentil hatte aOR 4,10 (95%-CI 1,93–8,69); das Modell zeigte aber nur bescheidene Diskrimination (AUC 0,674).",
+    transfer:"USA-Daten; niedriges Gewicht als objektiver, verfügbarer Hinweis relevant auch für deutsche Kinderschutzbeurteilung."
+  },
+  {
+    journal:"Epilepsia Open", year:"2026", pmid:"43033003",
+    author:"Abend JE et al.", pubdate:"14.11.2026",
+    added:"14.11.2026",
+    title:"Levetiracetam dominiert Epilepsie-Pharmakotherapie bei Kindern in 17-Jahres-Kohort",
+    sum:"Eine US-amerikanische Rückblick-Analyse von 20.009 pädiatrischen Epilepsie-Patienten über 17 Jahre dokumentierte Auswahl, Sequenzierung und Pfade der Antiepileptika-Therapie.",
+    result:"27 unterschiedliche Antiepileptika und 3507 Behandlungspfade wurden identifiziert. Levetiracetam war häufigste Erstverordnung (35,1%), stieg aber von 23,1% (2010) auf 41,5% (2026). Oxcarbazepin 17,2%, Valproat 12,3%. Neuere Wirkstoffe machten 2010 0%, 2026 9,1% aus. 55,6% hatten nur ein Medikament, 22,4% zwei, 22% drei oder mehr (Proxy für Arzneimittelresistenz). Pfade waren heterogen; nur wenige &gt;1%.",
+    transfer:"Große US-amerikanische Klinik; Real-World-Daten zur Sequenzierung relevant für deutsche Evidenzlücken, aber Krankenversicherungssystem unterschiedlich."
+  },
+  {
+    journal:"Mol Cell Pediatr", year:"2026", pmid:"43007508",
+    author:"Kunkel F et al.", pubdate:"10.11.2026",
     added:"10.11.2026",
-    title:"Schlaganfalltherapie bei Kindern: 18 % schlechte Funktion trotz erfolgreicher Reperfusion",
-    sum:"Internationale Register-Kohortenstudie mit 101 Kindern nach erfolgreicher endovaskulärer Thrombektomie (eTICI ≥2b); Evaluation schlechter funktioneller Outcome (mRS &gt;2) trotz Reperfusion über 90 Tage.",
-    result:"18 % (18/101) mit suboptimalem Outcome (mRS &gt;2) – deutlich niedriger als Erwachsene (40–60 %). Niedrigere finale eTICI-Grade (aOR 0,44, p=0,012) und jüngeres Alter (0,87 pro Jahr, p=0,0098) unabhängig assoziiert. Baseline-PedNIHSS und ASPECTS nicht unabhängig prognostisch.",
-    transfer:"Deutschsprachiger Raum und Europa beteiligt, vergleichbare Schlaganfallversorgung."
+    title:"Intensivpflegebedarf bei Pankreatitis in zwei Jahren gestiegen – ohne mehr Fälle oder schwere Verläufe",
+    sum:"Eine 16-Jahres-Rückblick-Kohorte aus einer deutschen Universitätsklinik überprüfte, ob ein erkannter Anstieg intensivmedizinischer Behandlungen von pädiatrischer Pankreatitis (2024–2025) auf Fallzahlen- oder Schweregrad-Zunahme zurückgeht.",
+    result:"Von 184 identifizierten Aufnahmen erfüllten 59 Einschluss: 44 akut, 7 akut rezidivierend, 8 chronisch. Die Gesamtzahl blieb stabil (10 Patienten 2024–2025 vs. 49 davor). Sieben von neun intensivmedizinischen Aufnahmen mit Pankreatitis als Hauptgrund traten 2024–2025 auf; nur je eine in 2011 und 2014, keine in den 9 Jahren dazwischen. Schweregrad-Verteilung blieb stabil (1/10 vs. 4/49; p n.s.).",
+    transfer:"Deutsche Universitätsklinik; Warnung vor überinterpretation lokaler Cluster ohne Kontext der Gesamtreihe."
   },
   {
-    journal:"Front Neurol", year:"2026", pmid:"43031772",
-    author:"Valentina B et al.", pubdate:"30.10.2026",
+    journal:"EClinicalMedicine", year:"2026", pmid:"43031982",
+    author:"Gabela A et al.", pubdate:"05.11.2026",
     added:"14.11.2026",
-    title:"Funktionelle Bewegungsstörungen bei Kindern: Neuromotor-Therapie verbessert Remission deutlich",
-    sum:"Historische Kohortenstudie mit Vergleich: übliche Versorgung (UC, n=17) versus Neuromotor-Therapie-augmentiert (NMT-A, n=29) mit Kurz-Intervention im Krankenhaus vor Gemeindereferral.",
-    result:"Motor-Symptom-Freiheit (S-FMDRS=0) in 55,2 % vs. 5,9 % bei 6 Monaten (Risikodifferenz 49,3 %-Punkte, KI 21,8–66,4) und 86,2 % vs. 52,9 % bei 12 Monaten (Risikodifferenz 33,3 %-Punkte, KI 6,5–56,8). Kontinuierliche ambulante Physiotherapie in 75,0 % vs. 17,6 % (RR 4,25, KI 1,74–12,46).",
-    transfer:"Italienische Studie, vergleichbare europäische Versorgungsstrukturen."
+    title:"Pädiatrische Intensivsterblichkeit in Ländern mit niedrigem Einkommen 28,4%, in mittleren 10,0%",
+    sum:"Eine Systematische Übersicht und Meta-Analyse (309 Studien, 311.632 ICU-Aufnahmen in 39 Ländern mit niedrigem/mittlerem Einkommen) charakterisierte Ursachen pädiatrischer Intensivaufnahmen und -todesfälle sowie zeitliche Trends.",
+    result:"Häufigste Aufnahmegründe: Atemwegserkrankungen (19,7%), neurologisch (5,6%), Schock (5,2%); infektiöse Ätiologien dominieren. Gepoolte ICU-Sterblichkeit höchst in Ländern niedriger Entwicklung (28,4%, 95%-CI 23,7–33,6%), niedrigst in mittleren (10,0%, 95%-CI 8,4–12,0%). Abwärtstrend über Zeit in Ländern niedriger-mittlerer und mittlerer Entwicklung, statistisch signifikant in niedrig-mittleren (p&lt;0,05).",
+    transfer:"Länder mit hoher Kindersterblichkeit, andere Ressourcenausstattung; relevanz für Deutschland begrenzt, aber zeigt globale Lasten und Verbesserungspotentiale."
   },
   {
-    journal:"Front Oncol", year:"2026", pmid:"43011663",
-    author:"Chan WYK et al.", pubdate:"27.10.2026",
+    journal:"Front Immunol", year:"2026", pmid:"43010892",
+    author:"Bremm M et al.", pubdate:"27.10.2026",
     added:"11.11.2026",
-    title:"CAR-T-Herstellung vor Ort: Machbarkeit und Sicherheit bei rezidivierter ALL",
-    sum:"Phase-II-Machbarkeitsstudie zur lokal hergestellten CD19-CAR-T-Zelltherapie mit CliniMACS-System bei 6 Kindern mit rezidivierter/refraktärer B-ALL.",
-    result:"Alle 6 Patienten blieben in Remission (Median Follow-up 9 Monate, Progression-Free Survival nicht erreicht). 5 Patienten Grad-1-Zytokin-Freisetzungssyndrom (CRS), 1 Patient Grad-3-CRS, beide behandelbar. Transduktionseffizienz 42,86 %, Viabilität 96,22 %, keine Endotoxine oder Kontaminationen. Lokal gefertigte POC-CAR-T als zeitnahe, kostengünstige Option möglich.",
-    transfer:"Hong Kong, anderes Gesundheitssystem; Sicherheit und technische Machbarkeit übertragbar."
-  },
-  {
-    journal:"J Clin Med", year:"2026", pmid:"43030508",
-    author:"Kim J et al.", pubdate:"27.10.2026",
-    added:"14.11.2026",
-    title:"Therapeutische Hypothermie nach Reanimation bei Kindern: Keine klare Überlegenheit einer Dauer",
-    sum:"Netzwerk-Metaanalyse von 5 Studien (3 RCTs, 2 Beobachtung; 785 Teilnehmer) zum Vergleich von 24, 48 und 72 Stunden Hypothermie versus Kontrolle nach pädiatrischem Herzstillstand.",
-    result:"HT-72h vs. Kontrolle: Überleben RR 2,01 (KI 1,24–3,25), aber 72 % aus einer Beobachtungsstudie (1-Monat- vs. 12-Monats-Messung). Neurologie: RR 10,92 (KI 1,32–90,40), abhängig von einer Studie mit hohem Bias-Risiko. Certainty sehr niedrig. Evidenz mit Equipoise vereinbar, optimale Dauer nicht etabliert.",
-    transfer:"Internationale Evidenz, Prinzipien auf Deutschland übertragbar, aber klinische Fragestellung bleibt offen."
-  },
-  {
-    journal:"Healthcare (Basel)", year:"2026", pmid:"43028636",
-    author:"Şenol Ş et al.", pubdate:"26.10.2026",
-    added:"14.11.2026",
-    title:"Teach-Back für Eltern: Verbesserte Medikamentensicherheit, aber heterogene Evidenz",
-    sum:"Systematische Review von 9 RCTs (1299 Teilnehmer) zu Teach-Back-Interventionen (Verständnisverifizierung durch geschlossene Kommunikation) für Eltern/Betreuer bei Kindern 0–18 Jahren.",
-    result:"Moderate Evidenz für verbesserte Medikamentendosierungsgenauigkeit/-sicherheit. Schwache Evidenz für Medikamentenwissen. Sehr niedrige Certainty für Asthma-Kontrolle, HbA1c, Zahngesundheit, Diabetesselbstversorgung, Betreuer-Selbstwirksamkeit. Keine Studie bei niedrigem Bias-Risiko; Heterogenität und Multikomponenten-Interventionen begrenzen Schlussfolgerungen.",
-    transfer:"Internationale Evidenz, Lernprinzipien gelten in Deutschland, aber Implementierungsvariation zu erwarten."
+    title:"T-Zell-Proliferation vor Leukapherese sagt Herstellungsprobleme bei CAR-T-Therapie voraus",
+    sum:"Eine Studie an 27 pädiatrischen Patienten mit akuter lymphoblastischer Leukämie untersuchte, ob T-Zell-Parameter vor Leukapherese das Risiko für Out-of-Specification (OOS)-Outcomes bei der Herstellung von Kymriah®-Immuntherapie vorhersagen.",
+    result:"Sechs von 21 bewertbaren Patienten zeigten schlechte T-Zell-Proliferation (Dilution &lt;80%); alle vier Patienten mit OOS-Herstellung befanden sich in dieser Gruppe, während die übrigen 17 Werte ≥84,9% hatten. Der Parameter Dilution war der stärkste Prädiktor für Herstellungskompliance.",
+    transfer:"Europäische und deutsche Zentren beteiligt; Identifikation prätherapeutischer Biomarker relevant für CAR-T-Praxis."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2334,7 +2334,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "15.11.2026";
+const NEWS_STAND = "16.11.2026";
 const NEWS = [
   {titel:"Transitionskorridor bis 21: DGIM, DGKJ und DGN fordern Finanzierung", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/transitionskorridor-bis-21-dgim-dgkj-und-dgn-fordern-finanzierung/"},
   {titel:"Nur 13 Prozent der Kinder bewegen sich genug: AOK-Kindergesundheitsatlas", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/nur-13-prozent-der-kinder-bewegen-sich-genug-aok-kindergesundheitsatlas/"},
