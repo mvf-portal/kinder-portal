@@ -2270,7 +2270,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "22. Nov. 2026, 05:27 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2281,6 +2281,51 @@ const STUDIES = [
     sum:"Die Fetal Cardiology Working Group der Deutschen Gesellschaft für Pädiatrische Kardiologie analysierte den Status der fetalen Kardiologie und stellte fest, dass die Detektionsrate angeborener Herzfehler in Deutschland hinter dem internationalen Standard zurückbleibt.",
     result:"Derzeit wird in Deutschland beim Screening in der 19.–22. Woche nur eine 4-Kammerblick-Ansicht gefordert. Die Fachgesellschaft fordert verpflichtend zusätzliche Ansichten der Ausflussbahnen und die 3-Gefäß-Trachea-Ansicht zur Steigerung der Detektionsrate.",
     transfer:"Deutsches Gesundheitssystem, Konsenspapier der Fachgesellschaft, direkter Bezug zur Mutterschaftsrichtlinie"
+  },
+  {
+    journal:"Acta Anaesthesiol Scand", year:"2027", pmid:"43062059",
+    author:"Nissen KD et al.", pubdate:"Jan. 2027",
+    added:"20.11.2026",
+    title:"Intranasal Dexmedetomidin für MRT-Sedierung im Kindesalter – Sicherheit und zeitliche Aspekte",
+    sum:"Prospektive Beobachtungsstudie in Dänemark vergleicht intranasal verabreichtes Dexmedetomidin (n=51) mit historischen Kontrollen (Sevofluran oder Propofol, n=100) bei pädiatrischer MRT-Sedierung.",
+    result:"Dexmedetomidin führte zu längerer Gesamtdauer (214 Min. vs. 133 Min.), längerer Einleitungszeit (60 Min. vs. 26 Min.) und längerem Aufwachraum-Aufenthalt (112 Min. vs. 64 Min.). 75 % waren kooperativ bei intranasaler Gabe, 37 % wurden allein damit sediert. Atemwegsmanagement nötig in 1,9 % (vs. 43 % Kontrollen). Keine schweren Bradykardien oder Desaturationen.",
+    transfer:"Dänemark, europäisches Gesundheitssystem, Sicherheitsprofil übertragbar"
+  },
+  {
+    journal:"Pediatr Blood Cancer", year:"2026", pmid:"43062201",
+    author:"Seitz G et al.", pubdate:"20.11.2026",
+    added:"20.11.2026",
+    title:"Lokale Therapie bei perianalem Rhabdomyosarkom: Internationale Konsensusleitlinie",
+    sum:"Internationale Expertengruppe entwickelt Leitlinie zur lokalen Behandlung von Rhabdomyosarkomen im Perianalbereich bei Kindern.",
+    result:"Fünfjahresüberleben mit Multimodal-Therapie liegt bei 39–52 %. Leitlinie integriert chirurgische Optionen (Biopsie, Lymphknotenstaging, verschiedene Resektionstechniken) und Radiotherapie-Modalitäten (IMRT, Protonentherapie, Brachytherapie) basierend auf Literaturanalyse und Expertenkonsens.",
+    transfer:"Deutschland Mitglied der internationalen Studiengruppe (CWS/EpSSG), Leitlinie anwendbar"
+  },
+  {
+    journal:"Eur J Pediatr Surg", year:"2026", pmid:"43063991",
+    author:"Byrne M et al.", pubdate:"20.11.2026",
+    added:"20.11.2026",
+    title:"Ovarerhalt bei Ovarialtorsion im Kindesalter – unabhängig von Zeitverlauf",
+    sum:"Systematische Übersichtsarbeit zu Prognose und optimaler Behandlung von Ovarialtorsion bei Kindern (1–18 Jahre).",
+    result:"Unter 250 torsionsverhaltenen Ovarien wurde in 234 (94 %) eine konservative Operation durchgeführt. Bei dokumentiertem Follow-up (222 Fälle) zeigte sich Ovarienfunktion in 190 (86 %). Verzögerte Präsentation und ischämisches Aussehen sagten Funktionsverlust nicht zuverlässig voraus. Postoperatives Ultraschall innerhalb von 3 Monaten empfohlen.",
+    transfer:"USA-Studien, aber Behandlungsprinzipien geschlechtsunabhängig und weltweit übertragbar"
+  },
+  {
+    journal:"J Pediatr (Rio J)", year:"2026", pmid:"43063982",
+    author:"de Mello EG et al.", pubdate:"20.11.2026",
+    added:"20.11.2026",
+    title:"Natriumschwankungen intraoperativ und postoperative Komplikationen nach Kinderherz-OP",
+    sum:"Prospektive Kohortenstudie zu Auswirkungen von Natriumkonzentrationsveränderungen während Herzoperationen mit Herzlungenmaschine bei Kindern (n=214).",
+    result:"Größere Natriumvariation (Differenz höchster–niedrigster Wert) war unabhängig assoziiert mit Composite-Outcome (neurologische, renale, kardiale, pulmonale Komplikationen oder Tod): OR 1,13 (95%-KI 1,06–1,19) pro mmol/L Anstieg. Medianer Natriumverlauf 15,0 mmol/L (bei Ereignis) vs. 8,0 mmol/L (ohne Ereignis); p&lt;0,001.",
+    transfer:"Brasilien, aber Physiologie herzchirurgischer Eingriffe universal; anwendbar auf deutsche Kliniken"
+  },
+  {
+    journal:"Eur J Trauma Emerg Surg", year:"2026", pmid:"43052529",
+    author:"Middelkamp M et al.", pubdate:"18.11.2026",
+    added:"18.11.2026",
+    title:"Eppendorf-Cologne Scale besser für Mortalitätsprognose bei schwerem Schädel-Hirn-Trauma im Kindesalter",
+    sum:"Multicenter-Kohortenstudie mit 5.851 Kindern (Mittelwert 9,6 Jahre) vergleicht Eppendorf-Cologne Scale (ECS) mit Glasgow Coma Scale (GCS) für Prognose bei schwerem Schädel-Hirn-Trauma anhand Daten des TraumaRegister DGU.",
+    result:"GCS zeigte höhere Genauigkeit für schweres TBI (AUROC 0,778 vs. ECS 0,745). Für Mortalitätsprognose war ECS überlegen (AUROC 0,943 vs. GCS 0,910). Mortalität in schlechtester ECS-Kategorie 90 %, in schlechtester GCS-Kategorie 55 %. ECS liefert komplementäre prognostische Information.",
+    transfer:"Deutsche Traumaregister-Daten, direkt übertragbar auf deutsches Trauma-System"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2295,7 +2340,7 @@ const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07", "2027-02-11"], [], [],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "21.11.2026";
+const ZUL_STAND = "22.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
