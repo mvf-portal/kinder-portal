@@ -1,31 +1,26 @@
 {
  "hub": "Knowledge-Hub Kinder- und Jugendmedizin",
  "domain": "kinder.m-vf.de",
- "datum": "2026-11-24",
+ "datum": "2026-11-25",
  "stand": "terminiert",
- "titel": "MVF Kinder-Newsletter 24.11.2026",
- "betreff": "Neueste Studien - Kinder- und Jugendmedizin – 24. November 2026",
- "anzahl": 6,
+ "titel": "MVF Kinder-Newsletter 25.11.2026",
+ "betreff": "Neueste Studien - Kinder- und Jugendmedizin – 25. November 2026",
+ "anzahl": 1,
  "pmids": [
-  "43071137",
-  "43070923",
-  "43070737",
-  "43069109",
-  "43055591",
-  "43041787"
+  "43077527"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9100114",
- "termin_utc": "2026-11-24T09:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9100146",
+ "termin_utc": "2026-11-25T09:00:00+00:00",
  "empfaenger": 1,
- "listengroesse": 5843,
+ "listengroesse": 5840,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 52,
-  "pool": 51,
-  "gewaehlt": 6,
-  "neu": 6
+  "bekannt": 50,
+  "pool": 54,
+  "gewaehlt": 1,
+  "neu": 1
  },
  "rubriken": {
   "news": "886400765c419ea0",

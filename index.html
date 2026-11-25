@@ -2422,62 +2422,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "25. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"43071137",
-    author:"Muralitharan M et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Schnelltests in der Kindernotaufnahme: Machbarkeit und Akzeptanz",
-    sum:"Retrospektive Analyse der Implementierung von Point-of-Care-Tests (Blutbild und C-reaktives Protein) in einer UK-Kindernotaufnahme mit Befragung von 78 Mitarbeitenden zur wahrgenommenen Nützlichkeit.",
-    result:"Von 848 Kindern wurden 28,2% aufgenommen und 71,8% entlassen. 84,6% der Mitarbeitenden waren der Meinung, dass die Tests die klinische Entscheidungsfindung verbesserten; 89,7% berichteten verbesserte Patientenflussabläufe und unterstützten die weitere Verwendung. Limitierungen waren Kosten (33,3%), Bedienerfehler (28,2%) und Bestätigungsbedarf (26,9%).",
-    transfer:"UK-System, aber Versorgungslogik auf deutsches Notaufnahmesetting übertragbar"
-  },
-  {
-    journal:"Diabetes Care", year:"2026", pmid:"43070923",
-    author:"Bjornstad P et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Tirzepatid bei Typ-2-Diabetes in der Jugend: glomeruläre Hyperfiltration normalisiert sich",
-    sum:"Analyse der SURPASS-PEDS-Studie mit 99 Teilnehmern (10–&lt;18 Jahre) zur Nierenfunktion unter Tirzepatid oder Placebo über 30 Wochen.",
-    result:"18% zeigten Baseline-Hyperfiltration (eGFR 142 vs. 104 mL/min/1,73 m²). Tirzepatid reduzierte die eGFR, mit &gt;2-fach stärkerer Reduktion bei Hyperfiltration vs. Normofiltration (–20,2 vs. –8,4 mL/min/1,73 m²; beide p&lt;0,05 vs. Placebo). Hyperfiltrations-Anteil nahm unter Tirzepatid ab, unter Placebo zu (p&lt;0,05).",
-    transfer:"USA (Medicaid/kommerziell), aber Nierenfunktion-Effekt ist systemunabhängig; Mechanism relevant für deutsche Patienten"
-  },
-  {
-    journal:"Pediatr Crit Care Med", year:"2026", pmid:"43055591",
-    author:"Schütze L et al.", pubdate:"19.11.2026",
-    added:"19.11.2026",
-    title:"Beatmungsmanagement im PARDS-Simulator: Lernfortschritt bei Assistenzärzten",
-    sum:"Sekundäranalyse internationaler Daten von 125 Assistenzärztinnen und -ärzten in ihrer ersten PICU-Rotation, die an online-Simulatoren für pediatrisches ARDS trainiert hatten mit individualisiertem Feedback.",
-    result:"Mit Fortschritt durch den Fallszenario stiegen die Chancen der Einhaltung von PEEP-, FiO2- und Tidalvolumen-Zielen: PEEP (OR 2,68; 95% CI 1,65–4,34; p&lt;0,001), FiO2 (OR 2,48; 95% CI 1,29–4,76; p=0,007), Vt (OR 2,66; 95% CI 1,11–6,38; p=0,028). Allerdings reduzierten Ärzte FiO2 oder Beatmungsparameter nicht, wenn Pao2 und pH über den Zielen lagen.",
-    transfer:"Internationale Daten, Lernprinzipien auf deutsche Ausbildung übertragbar"
-  },
-  {
-    journal:"JHLT Open", year:"2026", pmid:"43041787",
-    author:"Carlens J et al.", pubdate:"26.10.2026",
-    added:"17.11.2026",
-    title:"MRT-Perfusionsdefekte bei Kindern nach Lungentransplantation ohne Spirometrie-Auffälligkeiten",
-    sum:"Einzentrige Querschnittsstudie zu 22 pädiatrischen Lungentransplantations-Empfängern (und 11 Kontrollen), die eine innovative strahlenfreie Funktions-MRT (PREFUL) erhielten zur Erfassung regionaler Ventilations- und Perfusionsdefekte.",
-    result:"Perfusionsdefektausmaß war signifikant höher bei Lungentransplantations-Empfängern als Kontrollen (p=0,001), während Ventilationsdefekte sich nicht unterschieden (p=0,359). FEV₁ %predicted korrelierte invers mit Perfusionsdefektausmaß (ρ=–0,487, p=0,022); keine Patienten erfüllten Spirometrie-Kriterien für chronische Abstoßung. PREFUL-MRT war zu 92% durchführbar.",
-    transfer:"Deutschland/Niederlande, vergleichbares Versorgungssystem; neue bildgebende Biomarker für deutsche Transplantationszentren relevant"
-  },
-  {
-    journal:"BMC Palliat Care", year:"2026", pmid:"43069109",
-    author:"Geffroy H et al.", pubdate:"28.08.2026",
-    added:"22.11.2026",
-    title:"Palliativmedizin bei nicht-progressiven Hirnschädigungen: Einleitung und Indikationen",
-    sum:"Retrospektive Multicenter-Studie von drei Palliativcare-Teams in Île-de-France zu 126 Patienten unter 25 Jahren mit nicht-progressiven irreversiblen neurologischen Erkrankungen (ACT-4-Gruppe).",
-    result:"Mediales Alter bei Palliativeinleitung 3,5 Jahre (IQR 0,5–12,5 Monate), meist eingeleitet während akuter Episode (Atemstress oder neurologische Symptome). Ein Jahr nach Zuweisung war ein Drittel der Patienten verstorben, ein Drittel erhielt Palliativfolge-up, ein Drittel kein Follow-up durch Palliativteams.",
-    transfer:"Frankreich, vergleichbare spezialisierte Palliativstruktur; Erkenntnis zur optimalen Einleitungszeit auch für deutsche Zentren relevant"
-  },
-  {
-    journal:"Can Respir J", year:"2026", pmid:"43070737",
-    author:"Wee WB et al.", pubdate:"2026",
-    added:"23.11.2026",
-    title:"Algorithmus für Screening auf primäre Ziliendyskinesie in Routinedaten: 95% Sensitivität",
-    sum:"Retrospektive Fall-Kontroll-Studie mit ontarischen Routinedaten (1996–2020) zur Entwicklung und Validierung eines Screening-Algorithmus für primäre Ziliendyskinesie (PCD) bei Kindern (&lt;18 Jahre) mittels Kombinationen von Diagnosen und Befunden.",
-    result:"126 PCD-Patienten (Fälle) und 1.262.194 Kontrollen (CF: 1.307, Asthma: 1.260.887). Der sensitive Algorithmus \"Pick 2 of 5\" (Bronchiektasis, chronische Bronchitis, Neugeborenen-Atemstörung, Rhinosinusitis, Lateralitätsdefekte) erreichte 95% Sensitivität, 97% Spezifität und Youden-Index 0,92.",
-    transfer:"Kanada, aber Algorithmus-Prinzip auf deutsche Administrativdaten (KV-Daten, Krankenkassen) übertragbar"
+    journal:"J Crohns Colitis", year:"2026", pmid:"43077527",
+    author:"Chalon F et al.", pubdate:"07.11.2026",
+    added:"24.11.2026",
+    title:"Dringlichkeit und Stuhlinkontinenz bei Kindern mit Colitis ulcerosa deutlich häufiger als dokumentiert",
+    sum:"Prospektive Multizenterstudie in 11 französischen Zentren zur Prävalenz von Dringlichkeit und Stuhlinkontinenz bei Kindern (6-18 Jahre) mit Colitis ulcerosa.",
+    result:"Von 191 Kindern waren Dringlichkeit und Stuhlinkontinenz in der Patientenberichterstattung mit 41,8% bzw. 16,4% monatlich deutlich häufiger als in Krankenakten dokumentiert (9,0% bzw. 2,7%). 32,5% der symptomatischen Kinder berichteten von Symptomen auch in vermeintlicher Remission. 20,8% sprachen diese Symptome während der Kontrollen nie an. Höhere Häufigkeit korrelierte mit beeinträchtigtem Alltag, vermindertem Schulbesuch und niedrigerem Lebensqualitätsscore.",
+    transfer:"Französische Universitätszentren, vergleichbare Versorgungsstruktur mit Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2502,7 +2457,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.11.2026";
+const NEWS_STAND = "25.11.2026";
 const NEWS = [
   {titel:"Transitionskorridor bis 21: DGIM, DGKJ und DGN fordern Finanzierung", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/transitionskorridor-bis-21-dgim-dgkj-und-dgn-fordern-finanzierung/"},
   {titel:"Nur 13 Prozent der Kinder bewegen sich genug: AOK-Kindergesundheitsatlas", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/nur-13-prozent-der-kinder-bewegen-sich-genug-aok-kindergesundheitsatlas/"},
